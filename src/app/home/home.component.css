@@ -1,0 +1,33 @@
+.d-welcome {
+  padding-right: 10%;
+  padding-left: 10%;
+  padding-top: 5%
+}
+
+.d-welcome span {
+  color: red;
+}
+
+.btn-call {
+
+}
+
+.floating-btn {
+  position: fixed;
+  bottom: 1rem;
+  right: 1.5rem;
+  width: auto;
+  height: auto;
+  text-align: center;
+}
+
+.btnGroup {
+  display: inline-block;
+  font-size: 0;
+  border: 2px solid darkgreen;
+}
+
+button {
+  display: block;
+  width: 100%;
+}

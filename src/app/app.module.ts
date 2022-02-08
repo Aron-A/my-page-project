@@ -8,20 +8,22 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import {MatButtonModule} from "@angular/material/button";
 import {MatSidenavModule} from "@angular/material/sidenav";
 import { HomeComponent } from './home/home.component';
+import {MatIconModule} from "@angular/material/icon";
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent
   ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule,
-    BrowserAnimationsModule,
-    NgbModule,
-    MatButtonModule,
-    MatSidenavModule
-  ],
+    imports: [
+        BrowserModule,
+        AppRoutingModule,
+        BrowserAnimationsModule,
+        NgbModule,
+        MatButtonModule,
+        MatSidenavModule,
+        MatIconModule
+    ],
   providers: [],
   bootstrap: [AppComponent]
 })
